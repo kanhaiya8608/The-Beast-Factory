@@ -1,0 +1,191 @@
+<html>
+<head>
+<title>
+    The Beast Factory
+</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+<section class="banner">
+<div class="bannner-text">
+    <h2>The Beast Factory</h2>
+    <p class="don">Don't stop till you drop!</p>
+    <img src="images/logo.png" class="logo">
+<div class="banner-btn">
+    <a href="#"><span></span>Sign up</a>
+    <a href="#"><span></span>Login</a>
+</div>
+</div>
+</section>
+<div id="sidenav" class="sidenav">
+    <nav>
+        <ul>
+        <li><a href=#>HOME</a></li>
+        <li><a href=#>FEATURES</a></li>
+        <li><a href=#>SERVICES</a></li>
+        <li><a href=#>DOCUMENTATION</a></li>
+        <li><a href=#>CONTACT US</a></li>
+    </ul>
+    </nav>
+    </div>
+<div id="menubtn" class="menubtn">
+    <img src="images/menu.png" id="menu" class="menu">
+</div>
+<script>
+    var menubtn = document.getElementById("menubtn")
+    var sidenav = document.getElementById("sidenav")
+    var menu = document.getElementById("menu")
+
+sidenav.style.right = "-250px"
+
+menubtn.onclick = function(){
+    if(sidenav.style.right == "-250px"){
+        sidenav.style.right = "0";
+        menu.src="images/close.png"
+    }
+    else{
+        sidenav.style.right = "-250px";
+        menu.src = "images/menu.png"
+    }
+}
+</script>
+<!--Features--->
+<section id="feature">
+<div class="title-text" id="title-text">
+    <h1>Why Choose Us</h1>
+</div>
+<div class="feature-box">
+ <div class="features">
+     <div class="feature-text">
+        While gymming is your safest bet to shed those extra kilos in a jiffy, some might just get extremely tired or bored to
+        go. Here’s a little weekend inspiration on why going for us is a great idea
+        
+        The biggest difference between working out alone versus working out with others is the fact that
+        when in the gym, you actually get to watch other people workout and can get inspired. When you see others working harder
+        than you it instantly fills you up with the motivation to do more.
+        No matter how much you invest, getting all the equipment and maintaining its upkeep is only possible at
+        the gym. <br><br>We always have the latest equipment and fitness trends and so you too will be updated at all
+        times.
+        Buying a cycle, treadmill or some weights doesnt prove to be quite useful while personal
+        trainers guide you and help you reach your goal.
+        <br><br>
+        We help people reach their goals by helping them become the best version of themselves.
+     </div>
+ </div>
+ <div class="feature-img">
+     <img src="images/trainer.jpeg" class="train">
+    </div>
+</div>
+</section>
+
+<!--Testimonials--->
+<section class="testimonials">
+    <div class="testex" id="testex">
+        <center><h1>What People Say</h1></center>
+    </div>
+  <div id="test-list">
+    <section class=pallete>
+      <div class="top-box"></div>
+      <img src="https://scontent.fixc2-1.fna.fbcdn.net/v/t1.0-9/s960x960/116859515_2693030704312593_5150301503554286992_o.jpg?_nc_cat=103&ccb=2&_nc_sid=730e14&_nc_ohc=ts8vkE7wdOAAX_CYF6G&_nc_oc=AQn5p7x72ukRWYkc-guw3Gd9MnJva1Zp21tZSse66hZmN-DfY_Czxgxjab4fFX3O-Zw&_nc_ht=scontent.fixc2-1.fna&tp=7&oh=087e55eab7b6a229312c90b43417f4a2&oe=5FC2C187" alt="Picture of Vivian Williams">
+      <div class="bottom-box">
+        <blockquote>
+          <p><br>Your current body is the only body that can take you to your new body so be kind to it.</p>
+        </blockquote>
+        <div class="test-details">
+          <p><span>Vishal Kaushal</span><br>SD, IN</p>
+        </div>
+     </div>
+    </section>
+
+    <section class=pallete2>
+      <div class="top-box"></div>
+      <img src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Picture of Josie Anderson">
+      <div class="bottom-box">
+        <blockquote>
+          <p><br>There is no GIANT step that can take you there! But, consistent and small steps can!</p>
+        </blockquote>
+        <div class="test-details">
+          <p><span>Josie Anderson</span><br>Raleigh, NC</p>
+        </div>
+     </div>
+    </section>
+
+    <section class=pallete>
+      <div class="top-box"></div>
+      <img src=https://images.pexels.com/photos/2269872/pexels-photo-2269872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 alt="Picture of Jenny Smith">
+      <div class="bottom-box">
+        <blockquote>
+          <p><br>Don't be scared to LIFT HEAVY! You won't get huge and bulky, you'll just get amazing.</p>
+        </blockquote>
+        <div class="test-details">
+          <p><span>Jason Smith</span><br>Boise, ID</p>
+        </div>
+     </div>
+    </section>
+    
+  </div>
+</section>
+<!--Contact us--->
+<section class="contact">
+    <div class="container">
+      <h1>Contact us</h1>
+      <div class="contact-box">
+        <div class="contact-left">
+          <h3>Send your request</h3>
+          <form>
+    
+            <div class="input-row">
+              <div class="input-group">
+                <label>Name</label>
+                <input type="text" placeholder="Keanu Reeves">
+              </div>
+              <div class="input-group">
+                <label>Phone</label>
+                <input type="text" placeholder="+91 827 983 1348">
+              </div>
+            </div>
+            <div class="input-row">
+              <div class="input-group">
+                <label>E-mail</label>
+                <input type="text" placeholder="abc@gmail.com">
+              </div>
+              <div class="input-group">
+                <label>Subject</label>
+                <input type="text" placeholder="Description">
+              </div>
+            </div>
+            <label>Message</label>
+            <textarea rows="5" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+        <div class="contact-right">
+          <h3>Reach Us</h3>
+          <table>
+            <tr>
+              <td>Email</td>
+              <td>abc@xyz.com</td>
+            </tr>
+            <tr>
+              <td>Phone</td>
+              <td>+91 827 983 1348</td>
+            </tr>
+            <tr>
+              <td>Address</td>
+              <td>21, Michigan Street,<br> Coppel,<br> TEX</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    </div>
+<div class="copyright">
+  Copyright©2020 KANHAIYA VERMA
+</div>
+</section>
+
+</body>    
+</html>
